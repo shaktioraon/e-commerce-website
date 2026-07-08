@@ -18,7 +18,7 @@ httpRequest.onreadystatechange = function()
                 "id": (jsonArray.length)+1, "amount": 200,"product":["userOrder"]
             })
 
-        // send with new request the updated JSON file to the server:
+        // send with new request the updated JSON file to the '
         httpRequest.open("POST", jsonRequestURL, true)
         httpRequest.setRequestHeader("Content-Type", "application/x-www-form-urlencoded")
         httpRequest.send(jsonArray)

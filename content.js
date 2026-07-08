@@ -42,7 +42,7 @@ function dynamicClothingSection(ob) {
   return boxDiv;
 }
 
-//  TO SHOW THE RENDERED CODE IN CONSOLE
+// / TO SHOW THE RENDERED CODE IN CONSOLE
 // console.log(dynamicClothingSection());
 
 // console.log(boxDiv)

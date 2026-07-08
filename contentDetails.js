@@ -121,7 +121,7 @@ function dynamicContentDetails(ob)
 
 
 
-// BACKEND CALLING
+// /BACKEND CALLING
 
 let httpRequest = new XMLHttpRequest()
 {
